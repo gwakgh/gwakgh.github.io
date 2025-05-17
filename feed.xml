@@ -4,7 +4,7 @@
   <id>https://gwakgh.github.io/</id>
   <title>Unreal Devlog GGH</title>
   <subtitle>Unreal Engine 5와 함께하는 개발 여정, 매일의 TIL과 실전 노하우를 기록합니다.</subtitle>
-  <updated>2025-05-17T12:48:11+09:00</updated>
+  <updated>2025-05-17T12:52:11+09:00</updated>
   <author>
     <name>GGH</name>
     <uri>https://gwakgh.github.io/</uri>
@@ -20,105 +20,131 @@
 
   
   <entry>
-    <title>Customize the Favicon</title>
-    <link href="https://gwakgh.github.io/posts/customize-the-favicon/" rel="alternate" type="text/html" title="Customize the Favicon" />
-    <published>2019-08-11T01:34:00+09:00</published>
+    <title>포스팅 테스트</title>
+    <link href="https://gwakgh.github.io/posts/%EC%B2%AB-%ED%8F%AC%EC%8A%A4%ED%8C%85/" rel="alternate" type="text/html" title="포스팅 테스트" />
+    <published>2025-05-17T09:00:00+09:00</published>
   
-    <updated>2024-03-02T02:28:45+09:00</updated>
+    <updated>2025-05-17T09:00:00+09:00</updated>
   
-    <id>https://gwakgh.github.io/posts/customize-the-favicon/</id>
-    <content type="text/html" src="https://gwakgh.github.io/posts/customize-the-favicon/" />
+    <id>https://gwakgh.github.io/posts/%EC%B2%AB-%ED%8F%AC%EC%8A%A4%ED%8C%85/</id>
+    <content type="text/html" src="https://gwakgh.github.io/posts/%EC%B2%AB-%ED%8F%AC%EC%8A%A4%ED%8C%85/" />
     <author>
-      <name>cotes</name>
+      <name>GGH</name>
     </author>
 
   
     
-    <category term="Blogging" />
+    <category term="메인 카테고리(테스트)" />
     
-    <category term="Tutorial" />
+    <category term="서브 카테고리" />
     
   
 
-  <summary>The favicons of Chirpy are placed in the directory assets/img/favicons/. You may want to replace them with your own. The following sections will guide you to create and replace the default favicons.  Generate the favicon  Prepare a square image (PNG, JPG, or SVG) with a size of 512x512 or more, and then go to the online tool Real Favicon Generator and click the button Select your Favicon image ...</summary>
+  <summary></summary>
 
   </entry>
 
   
   <entry>
-    <title>Getting Started</title>
-    <link href="https://gwakgh.github.io/posts/getting-started/" rel="alternate" type="text/html" title="Getting Started" />
-    <published>2019-08-09T21:55:00+09:00</published>
+    <title>Conventional Commits</title>
+    <link href="https://gwakgh.github.io/posts/Conventional-Commits/" rel="alternate" type="text/html" title="Conventional Commits" />
+    <published>2025-05-16T16:22:00+09:00</published>
   
-    <updated>2025-02-06T14:27:54+09:00</updated>
+    <updated>2025-05-16T16:22:00+09:00</updated>
   
-    <id>https://gwakgh.github.io/posts/getting-started/</id>
-    <content type="text/html" src="https://gwakgh.github.io/posts/getting-started/" />
+    <id>https://gwakgh.github.io/posts/Conventional-Commits/</id>
+    <content type="text/html" src="https://gwakgh.github.io/posts/Conventional-Commits/" />
     <author>
-      <name>cotes</name>
+      <name>GGH</name>
     </author>
 
   
     
-    <category term="Blogging" />
+    <category term="Markdown" />
     
-    <category term="Tutorial" />
+    <category term="TIL" />
     
   
 
-  <summary>Get started with Chirpy basics in this comprehensive overview. You will learn how to install, configure, and use your first Chirpy-based website, as well as deploy it to a web server.</summary>
+  <summary>Conventional Commits  Conventional Commits 는 Commit Message 에 기반한 간단한 규칙이다. 큰 제약이 있는 규칙이 아니지만 일관성을 유지하면서 작성하는 것이 중요하며, 이를 통해 코드 리뷰나 디버깅을 용이하게 만들 수 있다.    기본 구조  &amp;amp;lt;type&amp;amp;gt;[optional scope]: &amp;amp;lt;description&amp;amp;gt;  [optional body]  [optional footer(s)]          type: 작업의 목적 (feat, fix, docs, 등)           scope: 작업 대상 (선택사항)           description: 간결한 변경 내용 (명령문, 소문자로 시작)        주요 타입              ...</summary>
 
   </entry>
 
   
   <entry>
-    <title>Writing a New Post</title>
-    <link href="https://gwakgh.github.io/posts/write-a-new-post/" rel="alternate" type="text/html" title="Writing a New Post" />
-    <published>2019-08-08T15:10:00+09:00</published>
+    <title>마크다운 표 테스트</title>
+    <link href="https://gwakgh.github.io/posts/%ED%91%9C-%ED%85%8C%EC%8A%A4%ED%8A%B8/" rel="alternate" type="text/html" title="마크다운 표 테스트" />
+    <published>2025-05-16T16:00:00+09:00</published>
   
-    <updated>2025-03-05T06:06:37+09:00</updated>
+    <updated>2025-05-16T16:00:00+09:00</updated>
   
-    <id>https://gwakgh.github.io/posts/write-a-new-post/</id>
-    <content type="text/html" src="https://gwakgh.github.io/posts/write-a-new-post/" />
+    <id>https://gwakgh.github.io/posts/%ED%91%9C-%ED%85%8C%EC%8A%A4%ED%8A%B8/</id>
+    <content type="text/html" src="https://gwakgh.github.io/posts/%ED%91%9C-%ED%85%8C%EC%8A%A4%ED%8A%B8/" />
     <author>
-      <name>cotes</name>
+      <name>GGH</name>
     </author>
 
   
     
-    <category term="Blogging" />
+    <category term="Markdown" />
     
-    <category term="Tutorial" />
+    <category term="TIL" />
     
   
 
-  <summary>This tutorial will guide you how to write a post in the Chirpy template, and it’s worth reading even if you’ve used Jekyll before, as many features require specific variables to be set.  Naming and Path  Create a new file named YYYY-MM-DD-TITLE.EXTENSION and put it in the _posts of the root directory. Please note that the EXTENSION must be one of md and markdown. If you want to save time of cre...</summary>
+  <summary>날짜       주제       메모                                                       2025-05-16       마크다운 표 작성법       표는       —       —       —       로 구분합니다                 2025-05-17       이미지 첨부                                                        2025-05-18       코드 블록       print(&amp;#39;Hello!&amp;#39;)                                           마크다운에서 표 구현 테스트</summary>
 
   </entry>
 
   
   <entry>
-    <title>Text and Typography</title>
-    <link href="https://gwakgh.github.io/posts/text-and-typography/" rel="alternate" type="text/html" title="Text and Typography" />
-    <published>2019-08-08T12:33:00+09:00</published>
+    <title>이미지 첨부 테스트</title>
+    <link href="https://gwakgh.github.io/posts/%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%B2%A8%EB%B6%80-%ED%85%8C%EC%8A%A4%ED%8A%B8/" rel="alternate" type="text/html" title="이미지 첨부 테스트" />
+    <published>2025-05-16T15:42:00+09:00</published>
   
-    <updated>2024-07-02T07:00:39+09:00</updated>
+    <updated>2025-05-16T15:42:00+09:00</updated>
   
-    <id>https://gwakgh.github.io/posts/text-and-typography/</id>
-    <content type="text/html" src="https://gwakgh.github.io/posts/text-and-typography/" />
+    <id>https://gwakgh.github.io/posts/%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%B2%A8%EB%B6%80-%ED%85%8C%EC%8A%A4%ED%8A%B8/</id>
+    <content type="text/html" src="https://gwakgh.github.io/posts/%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%B2%A8%EB%B6%80-%ED%85%8C%EC%8A%A4%ED%8A%B8/" />
     <author>
-      <name>cotes</name>
+      <name>GGH</name>
     </author>
 
   
     
-    <category term="Blogging" />
+    <category term="Markdown" />
     
-    <category term="Demo" />
+    <category term="TIL" />
     
   
 
-  <summary>Examples of text, typography, math equations, diagrams, flowcharts, pictures, videos, and more.</summary>
+  <summary>블로그 포스팅 사진 첨부 테스트</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>언리얼 엔진5 TIL 시작하기</title>
+    <link href="https://gwakgh.github.io/posts/ue5-til-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/" rel="alternate" type="text/html" title="언리얼 엔진5 TIL 시작하기" />
+    <published>2025-05-16T09:00:00+09:00</published>
+  
+    <updated>2025-05-16T09:00:00+09:00</updated>
+  
+    <id>https://gwakgh.github.io/posts/ue5-til-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/</id>
+    <content type="text/html" src="https://gwakgh.github.io/posts/ue5-til-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/" />
+    <author>
+      <name>GGH</name>
+    </author>
+
+  
+    
+    <category term="UnrealEngine5" />
+    
+    <category term="TIL" />
+    
+  
+
+  <summary>처음으로 언리얼 엔진5와 관련된 TIL을 시작합니다! 앞으로 매일 배운 점과 실전 노하우를 기록할 예정입니다.     개발 환경 세팅   첫 프로젝트 생성   앞으로의 목표   많은 기대 부탁드립니다!</summary>
 
   </entry>
 
