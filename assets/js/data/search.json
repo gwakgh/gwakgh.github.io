@@ -8,14 +8,6 @@
     "content": "250517 포스팅 테스트"
   },
   {
-    "title": "포스팅 테스트",
-    "url": "/posts/%EC%B2%AB-%ED%8F%AC%EC%8A%A4%ED%8C%85/",
-    "categories": "메인 카테고리(테스트), 서브 카테고리",
-    "tags": "TIL",
-    "date": "2025-05-17 09:00:00 +0900",
-    "content": ""
-  },
-  {
     "title": "Conventional Commits",
     "url": "/posts/Conventional-Commits/",
     "categories": "Markdown, TIL",
