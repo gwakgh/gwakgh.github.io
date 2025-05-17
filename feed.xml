@@ -4,7 +4,7 @@
   <id>https://gwakgh.github.io/</id>
   <title>Unreal Devlog GGH</title>
   <subtitle>Unreal Engine 5와 함께하는 개발 여정, 매일의 TIL과 실전 노하우를 기록합니다.</subtitle>
-  <updated>2025-05-17T13:21:26+09:00</updated>
+  <updated>2025-05-17T13:41:20+09:00</updated>
   <author>
     <name>GGH</name>
     <uri>https://gwakgh.github.io/</uri>
@@ -17,6 +17,32 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>포스팅 테스트</title>
+    <link href="https://gwakgh.github.io/posts/%ED%8F%AC%EC%8A%A4%ED%8C%85-%ED%85%8C%EC%8A%A4%ED%8A%B8/" rel="alternate" type="text/html" title="포스팅 테스트" />
+    <published>2025-05-17T13:24:00+09:00</published>
+  
+    <updated>2025-05-17T13:24:00+09:00</updated>
+  
+    <id>https://gwakgh.github.io/posts/%ED%8F%AC%EC%8A%A4%ED%8C%85-%ED%85%8C%EC%8A%A4%ED%8A%B8/</id>
+    <content type="text/html" src="https://gwakgh.github.io/posts/%ED%8F%AC%EC%8A%A4%ED%8C%85-%ED%85%8C%EC%8A%A4%ED%8A%B8/" />
+    <author>
+      <name>GGH</name>
+    </author>
+
+  
+    
+    <category term="Markdown" />
+    
+    <category term="TIL" />
+    
+  
+
+  <summary>250517 포스팅 테스트</summary>
+
+  </entry>
 
   
   <entry>
@@ -67,32 +93,6 @@
   
 
   <summary>Conventional Commits  Conventional Commits 는 Commit Message 에 기반한 간단한 규칙이다. 큰 제약이 있는 규칙이 아니지만 일관성을 유지하면서 작성하는 것이 중요하며, 이를 통해 코드 리뷰나 디버깅을 용이하게 만들 수 있다.    기본 구조  &amp;amp;lt;type&amp;amp;gt;[optional scope]: &amp;amp;lt;description&amp;amp;gt;  [optional body]  [optional footer(s)]          type: 작업의 목적 (feat, fix, docs, 등)           scope: 작업 대상 (선택사항)           description: 간결한 변경 내용 (명령문, 소문자로 시작)        주요 타입              ...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>마크다운 표 테스트</title>
-    <link href="https://gwakgh.github.io/posts/%ED%8F%AC%EC%8A%A4%ED%8C%85-%ED%85%8C%EC%8A%A4%ED%8A%B8/" rel="alternate" type="text/html" title="마크다운 표 테스트" />
-    <published>2025-05-16T16:00:00+09:00</published>
-  
-    <updated>2025-05-16T16:00:00+09:00</updated>
-  
-    <id>https://gwakgh.github.io/posts/%ED%8F%AC%EC%8A%A4%ED%8C%85-%ED%85%8C%EC%8A%A4%ED%8A%B8/</id>
-    <content type="text/html" src="https://gwakgh.github.io/posts/%ED%8F%AC%EC%8A%A4%ED%8C%85-%ED%85%8C%EC%8A%A4%ED%8A%B8/" />
-    <author>
-      <name>GGH</name>
-    </author>
-
-  
-    
-    <category term="Markdown" />
-    
-    <category term="TIL" />
-    
-  
-
-  <summary>250517 포스팅 테스트</summary>
 
   </entry>
 
