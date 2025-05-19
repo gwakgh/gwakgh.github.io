@@ -4,7 +4,7 @@
   <id>https://gwakgh.github.io/</id>
   <title>Unreal Devlog GGH</title>
   <subtitle>Unreal Engine 5와 함께하는 개발 여정, 매일의 TIL과 실전 노하우를 기록합니다.</subtitle>
-  <updated>2025-05-19T18:22:06+09:00</updated>
+  <updated>2025-05-19T18:37:15+09:00</updated>
   <author>
     <name>GGH</name>
     <uri>https://gwakgh.github.io/</uri>
@@ -24,7 +24,7 @@
     <link href="https://gwakgh.github.io/posts/%EC%84%9C%EB%B2%84%EC%99%80-%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8/" rel="alternate" type="text/html" title="서버와 클라이언트" />
     <published>2025-05-19T18:18:00+09:00</published>
   
-    <updated>2025-05-19T18:18:00+09:00</updated>
+    <updated>2025-05-19T18:37:10+09:00</updated>
   
     <id>https://gwakgh.github.io/posts/%EC%84%9C%EB%B2%84%EC%99%80-%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8/</id>
     <content type="text/html" src="https://gwakgh.github.io/posts/%EC%84%9C%EB%B2%84%EC%99%80-%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8/" />
@@ -40,7 +40,7 @@
     
   
 
-  <summary>서버와 클라이언트  클라이언트란? 웹 브라우저(Chrome, Safari, Edge 등), 게임 실행 프로그램(게임 클라이언트)     웹 클라이언트   주로 웹 브라우저를 가리킴   Google, Naver 등을 이용할 때, 크롬 혹은 사파리 등으로 서버에 요청을 보냄   보낸 요청에 맞는 응답을 통해 웹 페이지를 보는것   게임 클라이언트   게임을 실행하는 프로그램을 의미   게임을 실행하는 .exe 파일 혹은 앱이 곧 게임 클라이언트   서버와 끊임없이 정보를 주고 받으면서 실시간 업데이트 반영   서버란? 사용자가 필요로하는 정보를 제공하거나 어떤 기능을 수행하도록 서비스 제공을 하는 역할     웹 서버   텍스트, 이미지 등 여러 컨텐츠를 빠르고 간단한 데이터 처리하여 다수의 사용자에게 제...</summary>
+  <summary>클라이언트란? 웹 브라우저(Chrome, Safari, Edge 등), 게임 실행 프로그램(게임 클라이언트)     웹 클라이언트   주로 웹 브라우저를 가리킴   Google, Naver 등을 이용할 때, 크롬 혹은 사파리 등으로 서버에 요청을 보냄   보낸 요청에 맞는 응답을 통해 웹 페이지를 보는것   게임 클라이언트   게임을 실행하는 프로그램을 의미   게임을 실행하는 .exe 파일 혹은 앱이 곧 게임 클라이언트   서버와 끊임없이 정보를 주고 받으면서 실시간 업데이트 반영   서버란? 사용자가 필요로하는 정보를 제공하거나 어떤 기능을 수행하도록 서비스 제공을 하는 역할     웹 서버   텍스트, 이미지 등 여러 컨텐츠를 빠르고 간단한 데이터 처리하여 다수의 사용자에게 제공   사용자의 브라...</summary>
 
   </entry>
 
