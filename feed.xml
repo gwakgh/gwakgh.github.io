@@ -4,7 +4,7 @@
   <id>https://gwakgh.github.io/</id>
   <title>Unreal Devlog GGH</title>
   <subtitle>Unreal Engine 5와 함께하는 개발 여정, 매일의 TIL과 실전 노하우를 기록합니다.</subtitle>
-  <updated>2025-05-18T08:55:52+09:00</updated>
+  <updated>2025-05-19T18:22:06+09:00</updated>
   <author>
     <name>GGH</name>
     <uri>https://gwakgh.github.io/</uri>
@@ -17,6 +17,58 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>서버와 클라이언트</title>
+    <link href="https://gwakgh.github.io/posts/%EC%84%9C%EB%B2%84%EC%99%80-%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8/" rel="alternate" type="text/html" title="서버와 클라이언트" />
+    <published>2025-05-19T18:18:00+09:00</published>
+  
+    <updated>2025-05-19T18:18:00+09:00</updated>
+  
+    <id>https://gwakgh.github.io/posts/%EC%84%9C%EB%B2%84%EC%99%80-%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8/</id>
+    <content type="text/html" src="https://gwakgh.github.io/posts/%EC%84%9C%EB%B2%84%EC%99%80-%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8/" />
+    <author>
+      <name>GGH</name>
+    </author>
+
+  
+    
+    <category term="UnrealEngine5" />
+    
+    <category term="TIL" />
+    
+  
+
+  <summary>서버와 클라이언트  클라이언트란? 웹 브라우저(Chrome, Safari, Edge 등), 게임 실행 프로그램(게임 클라이언트)     웹 클라이언트   주로 웹 브라우저를 가리킴   Google, Naver 등을 이용할 때, 크롬 혹은 사파리 등으로 서버에 요청을 보냄   보낸 요청에 맞는 응답을 통해 웹 페이지를 보는것   게임 클라이언트   게임을 실행하는 프로그램을 의미   게임을 실행하는 .exe 파일 혹은 앱이 곧 게임 클라이언트   서버와 끊임없이 정보를 주고 받으면서 실시간 업데이트 반영   서버란? 사용자가 필요로하는 정보를 제공하거나 어떤 기능을 수행하도록 서비스 제공을 하는 역할     웹 서버   텍스트, 이미지 등 여러 컨텐츠를 빠르고 간단한 데이터 처리하여 다수의 사용자에게 제...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>포스팅 테스트</title>
+    <link href="https://gwakgh.github.io/posts/%EC%B2%AB-%ED%8F%AC%EC%8A%A4%ED%8C%85/" rel="alternate" type="text/html" title="포스팅 테스트" />
+    <published>2025-05-19T09:00:00+09:00</published>
+  
+    <updated>2025-05-19T09:00:00+09:00</updated>
+  
+    <id>https://gwakgh.github.io/posts/%EC%B2%AB-%ED%8F%AC%EC%8A%A4%ED%8C%85/</id>
+    <content type="text/html" src="https://gwakgh.github.io/posts/%EC%B2%AB-%ED%8F%AC%EC%8A%A4%ED%8C%85/" />
+    <author>
+      <name>GGH</name>
+    </author>
+
+  
+    
+    <category term="메인 카테고리(테스트)" />
+    
+    <category term="서브 카테고리" />
+    
+  
+
+  <summary></summary>
+
+  </entry>
 
   
   <entry>
@@ -93,58 +145,6 @@
   
 
   <summary>Conventional Commits  Conventional Commits 는 Commit Message 에 기반한 간단한 규칙이다. 큰 제약이 있는 규칙이 아니지만 일관성을 유지하면서 작성하는 것이 중요하며, 이를 통해 코드 리뷰나 디버깅을 용이하게 만들 수 있다.    기본 구조  &amp;amp;lt;type&amp;amp;gt;[optional scope]: &amp;amp;lt;description&amp;amp;gt;  [optional body]  [optional footer(s)]          type: 작업의 목적 (feat, fix, docs, 등)           scope: 작업 대상 (선택사항)           description: 간결한 변경 내용 (명령문, 소문자로 시작)        주요 타입              ...</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>마크다운 표 테스트</title>
-    <link href="https://gwakgh.github.io/posts/%ED%91%9C-%ED%85%8C%EC%8A%A4%ED%8A%B8/" rel="alternate" type="text/html" title="마크다운 표 테스트" />
-    <published>2025-05-16T16:00:00+09:00</published>
-  
-    <updated>2025-05-16T16:00:00+09:00</updated>
-  
-    <id>https://gwakgh.github.io/posts/%ED%91%9C-%ED%85%8C%EC%8A%A4%ED%8A%B8/</id>
-    <content type="text/html" src="https://gwakgh.github.io/posts/%ED%91%9C-%ED%85%8C%EC%8A%A4%ED%8A%B8/" />
-    <author>
-      <name>GGH</name>
-    </author>
-
-  
-    
-    <category term="Markdown" />
-    
-    <category term="TIL" />
-    
-  
-
-  <summary>날짜       주제       메모                                                       2025-05-16       마크다운 표 작성법       표는       —       —       —       로 구분합니다                 2025-05-17       이미지 첨부                                                        2025-05-18       코드 블록       print(&amp;#39;Hello!&amp;#39;)                                           마크다운에서 표 구현 테스트</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>이미지 첨부 테스트</title>
-    <link href="https://gwakgh.github.io/posts/%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%B2%A8%EB%B6%80-%ED%85%8C%EC%8A%A4%ED%8A%B8/" rel="alternate" type="text/html" title="이미지 첨부 테스트" />
-    <published>2025-05-16T15:42:00+09:00</published>
-  
-    <updated>2025-05-16T15:42:00+09:00</updated>
-  
-    <id>https://gwakgh.github.io/posts/%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%B2%A8%EB%B6%80-%ED%85%8C%EC%8A%A4%ED%8A%B8/</id>
-    <content type="text/html" src="https://gwakgh.github.io/posts/%EC%9D%B4%EB%AF%B8%EC%A7%80-%EC%B2%A8%EB%B6%80-%ED%85%8C%EC%8A%A4%ED%8A%B8/" />
-    <author>
-      <name>GGH</name>
-    </author>
-
-  
-    
-    <category term="Markdown" />
-    
-    <category term="TIL" />
-    
-  
-
-  <summary>블로그 포스팅 사진 첨부 테스트</summary>
 
   </entry>
 

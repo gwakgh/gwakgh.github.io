@@ -1,5 +1,21 @@
 [
   {
+    "title": "서버와 클라이언트",
+    "url": "/posts/%EC%84%9C%EB%B2%84%EC%99%80-%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8/",
+    "categories": "UnrealEngine5, TIL",
+    "tags": "게임 개발, UE5",
+    "date": "2025-05-19 18:18:00 +0900",
+    "content": "서버와 클라이언트  클라이언트란? 웹 브라우저(Chrome, Safari, Edge 등), 게임 실행 프로그램(게임 클라이언트)     웹 클라이언트   주로 웹 브라우저를 가리킴   Google, Naver 등을 이용할 때, 크롬 혹은 사파리 등으로 서버에 요청을 보냄   보낸 요청에 맞는 응답을 통해 웹 페이지를 보는것   게임 클라이언트   게임..."
+  },
+  {
+    "title": "포스팅 테스트",
+    "url": "/posts/%EC%B2%AB-%ED%8F%AC%EC%8A%A4%ED%8C%85/",
+    "categories": "메인 카테고리(테스트), 서브 카테고리",
+    "tags": "TIL",
+    "date": "2025-05-19 09:00:00 +0900",
+    "content": ""
+  },
+  {
     "title": "TIL(Today I Learned)에 대하여",
     "url": "/posts/TIL%EC%97%90-%EB%8C%80%ED%95%98%EC%97%AC/",
     "categories": "Markdown, TIL",

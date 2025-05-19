@@ -6,7 +6,7 @@ git checkout main
 
 # 2. 변경사항 커밋/푸시 (변경사항이 있을 때만)
 git add .
-git commit -m "자동 배포 커밋"
+git commit -m 'deploy: update gh-pages'
 git push
 
 # 3. Jekyll 빌드
@@ -20,7 +20,7 @@ xcopy /E /Y _site\* .
 
 # 6. 변경사항 커밋
 git add .
-git commit -m "배포: gh-pages 최신화"
+git commit -m 'deploy: update gh-pages'
 git push -f origin gh-pages
 
 # 7. main 브랜치로 복귀
