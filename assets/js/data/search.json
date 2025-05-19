@@ -1,5 +1,13 @@
 [
   {
+    "title": "UE5 플레이어 캐릭터 만들기",
+    "url": "/posts/%EC%96%B8%EB%A6%AC%EC%96%BC-%EC%97%94%EC%A7%845-%ED%94%8C%EB%A0%88%EC%9D%B4%EC%96%B4-%EC%BA%90%EB%A6%AD%ED%84%B0-%EB%A7%8C%EB%93%A4%EA%B8%B0/",
+    "categories": "UnrealEngine5, TIL",
+    "tags": "게임 개발, UE5",
+    "date": "2025-05-19 20:18:00 +0900",
+    "content": "플레이어 캐릭터는 게임에서 사용자가 직접 조작하는 핵심 오브젝트 Unreal Engine의 Visual Script인 Blueprint를 통해 별도의 코드 작성 없이 캐릭터의 외형, 시점, 이동 및 점프같은 기본적인 동작을 구현한다.   블루프린트로 Character를 생성하여 사진과 같이 움직이는 플레이어 캐릭터를 생성해보자     화면 하단 컨텐츠..."
+  },
+  {
     "title": "서버와 클라이언트",
     "url": "/posts/%EC%84%9C%EB%B2%84%EC%99%80-%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8/",
     "categories": "UnrealEngine5, TIL",

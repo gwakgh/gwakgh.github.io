@@ -4,7 +4,7 @@
   <id>https://gwakgh.github.io/</id>
   <title>Unreal Devlog GGH</title>
   <subtitle>Unreal Engine 5와 함께하는 개발 여정, 매일의 TIL과 실전 노하우를 기록합니다.</subtitle>
-  <updated>2025-05-19T18:37:15+09:00</updated>
+  <updated>2025-05-19T21:09:26+09:00</updated>
   <author>
     <name>GGH</name>
     <uri>https://gwakgh.github.io/</uri>
@@ -17,6 +17,32 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>UE5 플레이어 캐릭터 만들기</title>
+    <link href="https://gwakgh.github.io/posts/%EC%96%B8%EB%A6%AC%EC%96%BC-%EC%97%94%EC%A7%845-%ED%94%8C%EB%A0%88%EC%9D%B4%EC%96%B4-%EC%BA%90%EB%A6%AD%ED%84%B0-%EB%A7%8C%EB%93%A4%EA%B8%B0/" rel="alternate" type="text/html" title="UE5 플레이어 캐릭터 만들기" />
+    <published>2025-05-19T20:18:00+09:00</published>
+  
+    <updated>2025-05-19T20:18:00+09:00</updated>
+  
+    <id>https://gwakgh.github.io/posts/%EC%96%B8%EB%A6%AC%EC%96%BC-%EC%97%94%EC%A7%845-%ED%94%8C%EB%A0%88%EC%9D%B4%EC%96%B4-%EC%BA%90%EB%A6%AD%ED%84%B0-%EB%A7%8C%EB%93%A4%EA%B8%B0/</id>
+    <content type="text/html" src="https://gwakgh.github.io/posts/%EC%96%B8%EB%A6%AC%EC%96%BC-%EC%97%94%EC%A7%845-%ED%94%8C%EB%A0%88%EC%9D%B4%EC%96%B4-%EC%BA%90%EB%A6%AD%ED%84%B0-%EB%A7%8C%EB%93%A4%EA%B8%B0/" />
+    <author>
+      <name>GGH</name>
+    </author>
+
+  
+    
+    <category term="UnrealEngine5" />
+    
+    <category term="TIL" />
+    
+  
+
+  <summary>플레이어 캐릭터는 게임에서 사용자가 직접 조작하는 핵심 오브젝트 Unreal Engine의 Visual Script인 Blueprint를 통해 별도의 코드 작성 없이 캐릭터의 외형, 시점, 이동 및 점프같은 기본적인 동작을 구현한다.   블루프린트로 Character를 생성하여 사진과 같이 움직이는 플레이어 캐릭터를 생성해보자     화면 하단 컨텐츠 드로어(Contents Drawer)에서 블루프린트 클래스를 생성한다.   캐릭터 블루프린트로 생성했기 때문에 기본적으로 캐릭터 메시가 추가되어있다. 사전에 추가해놨던 메시를 선택해주자   스프링 암(Sprint Arm) 컴포넌트와 카메라(Camera) 컴포넌트를 추가한다. 단, 카메라 컴포넌트는 스프링 암 컴포넌트에 포함되도록 생성해야한다.   추가된 ...</summary>
+
+  </entry>
 
   
   <entry>
@@ -119,32 +145,6 @@
   
 
   <summary>250517 포스팅 테스트</summary>
-
-  </entry>
-
-  
-  <entry>
-    <title>Conventional Commits</title>
-    <link href="https://gwakgh.github.io/posts/Conventional-Commits/" rel="alternate" type="text/html" title="Conventional Commits" />
-    <published>2025-05-16T16:22:00+09:00</published>
-  
-    <updated>2025-05-16T16:22:00+09:00</updated>
-  
-    <id>https://gwakgh.github.io/posts/Conventional-Commits/</id>
-    <content type="text/html" src="https://gwakgh.github.io/posts/Conventional-Commits/" />
-    <author>
-      <name>GGH</name>
-    </author>
-
-  
-    
-    <category term="Markdown" />
-    
-    <category term="TIL" />
-    
-  
-
-  <summary>Conventional Commits  Conventional Commits 는 Commit Message 에 기반한 간단한 규칙이다. 큰 제약이 있는 규칙이 아니지만 일관성을 유지하면서 작성하는 것이 중요하며, 이를 통해 코드 리뷰나 디버깅을 용이하게 만들 수 있다.    기본 구조  &amp;amp;lt;type&amp;amp;gt;[optional scope]: &amp;amp;lt;description&amp;amp;gt;  [optional body]  [optional footer(s)]          type: 작업의 목적 (feat, fix, docs, 등)           scope: 작업 대상 (선택사항)           description: 간결한 변경 내용 (명령문, 소문자로 시작)        주요 타입              ...</summary>
 
   </entry>
 

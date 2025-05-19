@@ -30,24 +30,24 @@
 
   <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.4.1" />
-<meta property="og:title" content="서버와 클라이언트" />
+<meta property="og:title" content="UE5 플레이어 캐릭터 만들기" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="클라이언트란? 웹 브라우저(Chrome, Safari, Edge 등), 게임 실행 프로그램(게임 클라이언트)" />
-<meta property="og:description" content="클라이언트란? 웹 브라우저(Chrome, Safari, Edge 등), 게임 실행 프로그램(게임 클라이언트)" />
-<link rel="canonical" href="https://gwakgh.github.io/posts/%EC%84%9C%EB%B2%84%EC%99%80-%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8/" />
-<meta property="og:url" content="https://gwakgh.github.io/posts/%EC%84%9C%EB%B2%84%EC%99%80-%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8/" />
+<meta name="description" content="플레이어 캐릭터는 게임에서 사용자가 직접 조작하는 핵심 오브젝트 Unreal Engine의 Visual Script인 Blueprint를 통해 별도의 코드 작성 없이 캐릭터의 외형, 시점, 이동 및 점프같은 기본적인 동작을 구현한다." />
+<meta property="og:description" content="플레이어 캐릭터는 게임에서 사용자가 직접 조작하는 핵심 오브젝트 Unreal Engine의 Visual Script인 Blueprint를 통해 별도의 코드 작성 없이 캐릭터의 외형, 시점, 이동 및 점프같은 기본적인 동작을 구현한다." />
+<link rel="canonical" href="https://gwakgh.github.io/posts/%EC%96%B8%EB%A6%AC%EC%96%BC-%EC%97%94%EC%A7%845-%ED%94%8C%EB%A0%88%EC%9D%B4%EC%96%B4-%EC%BA%90%EB%A6%AD%ED%84%B0-%EB%A7%8C%EB%93%A4%EA%B8%B0/" />
+<meta property="og:url" content="https://gwakgh.github.io/posts/%EC%96%B8%EB%A6%AC%EC%96%BC-%EC%97%94%EC%A7%845-%ED%94%8C%EB%A0%88%EC%9D%B4%EC%96%B4-%EC%BA%90%EB%A6%AD%ED%84%B0-%EB%A7%8C%EB%93%A4%EA%B8%B0/" />
 <meta property="og:site_name" content="Unreal Devlog GGH" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2025-05-19T18:18:00+09:00" />
+<meta property="article:published_time" content="2025-05-19T20:18:00+09:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="서버와 클라이언트" />
+<meta property="twitter:title" content="UE5 플레이어 캐릭터 만들기" />
 <meta name="twitter:site" content="@twitter_username" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-05-19T18:37:10+09:00","datePublished":"2025-05-19T18:18:00+09:00","description":"클라이언트란? 웹 브라우저(Chrome, Safari, Edge 등), 게임 실행 프로그램(게임 클라이언트)","headline":"서버와 클라이언트","mainEntityOfPage":{"@type":"WebPage","@id":"https://gwakgh.github.io/posts/%EC%84%9C%EB%B2%84%EC%99%80-%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8/"},"url":"https://gwakgh.github.io/posts/%EC%84%9C%EB%B2%84%EC%99%80-%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-05-19T20:18:00+09:00","datePublished":"2025-05-19T20:18:00+09:00","description":"플레이어 캐릭터는 게임에서 사용자가 직접 조작하는 핵심 오브젝트 Unreal Engine의 Visual Script인 Blueprint를 통해 별도의 코드 작성 없이 캐릭터의 외형, 시점, 이동 및 점프같은 기본적인 동작을 구현한다.","headline":"UE5 플레이어 캐릭터 만들기","mainEntityOfPage":{"@type":"WebPage","@id":"https://gwakgh.github.io/posts/%EC%96%B8%EB%A6%AC%EC%96%BC-%EC%97%94%EC%A7%845-%ED%94%8C%EB%A0%88%EC%9D%B4%EC%96%B4-%EC%BA%90%EB%A6%AD%ED%84%B0-%EB%A7%8C%EB%93%A4%EA%B8%B0/"},"url":"https://gwakgh.github.io/posts/%EC%96%B8%EB%A6%AC%EC%96%BC-%EC%97%94%EC%A7%845-%ED%94%8C%EB%A0%88%EC%9D%B4%EC%96%B4-%EC%BA%90%EB%A6%AD%ED%84%B0-%EB%A7%8C%EB%93%A4%EA%B8%B0/"}</script>
 <!-- End Jekyll SEO tag -->
 
 
-  <title>서버와 클라이언트 | Unreal Devlog GGH
+  <title>UE5 플레이어 캐릭터 만들기 | Unreal Devlog GGH
   </title>
 
   <!--
@@ -440,7 +440,7 @@
         
           
             
-              <span>서버와 클라이언트</span>
+              <span>UE5 플레이어 캐릭터 만들기</span>
             
 
           
@@ -508,6 +508,1251 @@
 
 
 
+  
+  
+
+  
+    
+      
+      
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+
+    
+    
+
+    
+
+    
+      
+    
+
+    <!-- lazy-load images -->
+    
+
+    
+      <!-- make sure the `<img>` is wrapped by `<a>` -->
+      
+
+      
+        <!-- create the image wrapper -->
+        
+
+        
+        
+      
+    
+
+    <!-- combine -->
+    
+  
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+
+    
+    
+
+    
+
+    
+      
+    
+
+    <!-- lazy-load images -->
+    
+
+    
+      <!-- make sure the `<img>` is wrapped by `<a>` -->
+      
+
+      
+        <!-- create the image wrapper -->
+        
+
+        
+        
+      
+    
+
+    <!-- combine -->
+    
+  
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+
+    
+    
+
+    
+
+    
+      
+    
+
+    <!-- lazy-load images -->
+    
+
+    
+      <!-- make sure the `<img>` is wrapped by `<a>` -->
+      
+
+      
+        <!-- create the image wrapper -->
+        
+
+        
+        
+      
+    
+
+    <!-- combine -->
+    
+  
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+
+    
+    
+
+    
+
+    
+      
+    
+
+    <!-- lazy-load images -->
+    
+
+    
+      <!-- make sure the `<img>` is wrapped by `<a>` -->
+      
+
+      
+        <!-- create the image wrapper -->
+        
+
+        
+        
+      
+    
+
+    <!-- combine -->
+    
+  
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+
+    
+    
+
+    
+
+    
+      
+    
+
+    <!-- lazy-load images -->
+    
+
+    
+      <!-- make sure the `<img>` is wrapped by `<a>` -->
+      
+
+      
+        <!-- create the image wrapper -->
+        
+
+        
+        
+      
+    
+
+    <!-- combine -->
+    
+  
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+
+    
+    
+
+    
+
+    
+      
+    
+
+    <!-- lazy-load images -->
+    
+
+    
+      <!-- make sure the `<img>` is wrapped by `<a>` -->
+      
+
+      
+        <!-- create the image wrapper -->
+        
+
+        
+        
+      
+    
+
+    <!-- combine -->
+    
+  
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+
+    
+    
+
+    
+
+    
+      
+    
+
+    <!-- lazy-load images -->
+    
+
+    
+      <!-- make sure the `<img>` is wrapped by `<a>` -->
+      
+
+      
+        <!-- create the image wrapper -->
+        
+
+        
+        
+      
+    
+
+    <!-- combine -->
+    
+  
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+
+    
+    
+
+    
+
+    
+      
+    
+
+    <!-- lazy-load images -->
+    
+
+    
+      <!-- make sure the `<img>` is wrapped by `<a>` -->
+      
+
+      
+        <!-- create the image wrapper -->
+        
+
+        
+        
+      
+    
+
+    <!-- combine -->
+    
+  
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+
+    
+    
+
+    
+
+    
+      
+    
+
+    <!-- lazy-load images -->
+    
+
+    
+      <!-- make sure the `<img>` is wrapped by `<a>` -->
+      
+
+      
+        <!-- create the image wrapper -->
+        
+
+        
+        
+      
+    
+
+    <!-- combine -->
+    
+  
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+
+    
+    
+
+    
+
+    
+      
+    
+
+    <!-- lazy-load images -->
+    
+
+    
+      <!-- make sure the `<img>` is wrapped by `<a>` -->
+      
+
+      
+        <!-- create the image wrapper -->
+        
+
+        
+        
+      
+    
+
+    <!-- combine -->
+    
+  
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+
+    
+    
+
+    
+
+    
+      
+    
+
+    <!-- lazy-load images -->
+    
+
+    
+      <!-- make sure the `<img>` is wrapped by `<a>` -->
+      
+
+      
+        <!-- create the image wrapper -->
+        
+
+        
+        
+      
+    
+
+    <!-- combine -->
+    
+  
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+
+    
+    
+
+    
+
+    
+      
+    
+
+    <!-- lazy-load images -->
+    
+
+    
+      <!-- make sure the `<img>` is wrapped by `<a>` -->
+      
+
+      
+        <!-- create the image wrapper -->
+        
+
+        
+        
+      
+    
+
+    <!-- combine -->
+    
+  
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+
+    
+    
+
+    
+
+    
+      
+    
+
+    <!-- lazy-load images -->
+    
+
+    
+      <!-- make sure the `<img>` is wrapped by `<a>` -->
+      
+
+      
+        <!-- create the image wrapper -->
+        
+
+        
+        
+      
+    
+
+    <!-- combine -->
+    
+  
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+
+    
+    
+
+    
+
+    
+      
+    
+
+    <!-- lazy-load images -->
+    
+
+    
+      <!-- make sure the `<img>` is wrapped by `<a>` -->
+      
+
+      
+        <!-- create the image wrapper -->
+        
+
+        
+        
+      
+    
+
+    <!-- combine -->
+    
+  
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+
+    
+    
+
+    
+
+    
+      
+    
+
+    <!-- lazy-load images -->
+    
+
+    
+      <!-- make sure the `<img>` is wrapped by `<a>` -->
+      
+
+      
+        <!-- create the image wrapper -->
+        
+
+        
+        
+      
+    
+
+    <!-- combine -->
+    
+  
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+
+    
+    
+
+    
+
+    
+      
+    
+
+    <!-- lazy-load images -->
+    
+
+    
+      <!-- make sure the `<img>` is wrapped by `<a>` -->
+      
+
+      
+        <!-- create the image wrapper -->
+        
+
+        
+        
+      
+    
+
+    <!-- combine -->
+    
+  
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+
+    
+    
+
+    
+
+    
+      
+    
+
+    <!-- lazy-load images -->
+    
+
+    
+      <!-- make sure the `<img>` is wrapped by `<a>` -->
+      
+
+      
+        <!-- create the image wrapper -->
+        
+
+        
+        
+      
+    
+
+    <!-- combine -->
+    
+  
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+
+    
+    
+
+    
+
+    
+      
+    
+
+    <!-- lazy-load images -->
+    
+
+    
+      <!-- make sure the `<img>` is wrapped by `<a>` -->
+      
+
+      
+        <!-- create the image wrapper -->
+        
+
+        
+        
+      
+    
+
+    <!-- combine -->
+    
+  
+    
+
+    
+    
+
+    
+
+    
+    
+
+    
+    
+    
+
+    
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+      
+
+      
+    
+
+    <!-- take out classes -->
+    
+
+    
+
+    
+    
+
+    
+
+    
+      
+    
+
+    <!-- lazy-load images -->
+    
+
+    
+      <!-- make sure the `<img>` is wrapped by `<a>` -->
+      
+
+      
+        <!-- create the image wrapper -->
+        
+
+        
+        
+      
+    
+
+    <!-- combine -->
+    
+  
+
+  
+
 
 <!-- Add header for code snippets -->
 
@@ -535,61 +1780,6 @@
       
         
         
-      
-
-      
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-
-      
-      
-      
-
-      
-    
       
 
       
@@ -631,7 +1821,7 @@
 
 <article class="px-1" data-toc="true">
   <header>
-    <h1 data-toc-skip>서버와 클라이언트</h1>
+    <h1 data-toc-skip>UE5 플레이어 캐릭터 만들기</h1>
     
 
     <div class="post-meta text-muted">
@@ -648,7 +1838,7 @@
 
 <time
   
-  data-ts="1747646280"
+  data-ts="1747653480"
   data-df="ll"
   
     data-bs-toggle="tooltip" data-bs-placement="bottom"
@@ -660,29 +1850,6 @@
       </span>
 
       <!-- lastmod date -->
-      
-        <span>
-          Updated
-          <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-<time
-  
-  data-ts="1747647430"
-  data-df="ll"
-  
-    data-bs-toggle="tooltip" data-bs-placement="bottom"
-  
->
-  May 19, 2025
-</time>
-
-        </span>
       
 
       
@@ -726,7 +1893,7 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="1035 words"
+  title="960 words"
 >
   <em>5 min</em> read</span>
 
@@ -737,7 +1904,7 @@
 
   
     <div id="toc-bar" class="d-flex align-items-center justify-content-between invisible">
-      <span class="label text-truncate">서버와 클라이언트</span>
+      <span class="label text-truncate">UE5 플레이어 캐릭터 만들기</span>
       <button type="button" class="toc-trigger btn me-1">
         <i class="fa-solid fa-list-ul fa-fw"></i>
       </button>
@@ -750,7 +1917,7 @@
 
     <dialog id="toc-popup" class="p-0">
       <div class="header d-flex flex-row align-items-center justify-content-between">
-        <div class="label text-truncate py-2 ms-4">서버와 클라이언트</div>
+        <div class="label text-truncate py-2 ms-4">UE5 플레이어 캐릭터 만들기</div>
         <button id="toc-popup-close" type="button" class="btn mx-1 my-1 opacity-75">
           <i class="fas fa-close"></i>
         </button>
@@ -760,92 +1927,73 @@
   
 
   <div class="content">
-    <h3 id="클라이언트란"><span class="me-2">클라이언트란?</span><a href="#클라이언트란" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-<p><strong>웹 브라우저(Chrome, Safari, Edge 등), 게임 실행 프로그램(게임 클라이언트)</strong></p>
+    <p>플레이어 캐릭터는 게임에서 사용자가 직접 조작하는 핵심 오브젝트
+<strong>Unreal Engine</strong>의 Visual Script인 <strong>Blueprint</strong>를 통해 <strong>별도의 코드 작성 없이</strong> 캐릭터의 외형, 시점, 이동 및 점프같은 <strong>기본적인 동작</strong>을 구현한다.</p>
 
+<p><a href="/assets/img/Playble Character Capture.gif" class="popup img-link shimmer"><img src="/assets/img/Playble Character Capture.gif" alt="img" loading="lazy"></a>
+<strong>블루프린트</strong>로 Character를 생성하여 사진과 같이 움직이는 <strong>플레이어 캐릭터</strong>를 생성해보자</p>
+
+<p><a href="/assets/img/player character/1.png" class="popup img-link shimmer"><img src="/assets/img/player character/1.png" alt="img" loading="lazy"></a>
+<a href="/assets/img/player character/2.png" class="popup img-link shimmer"><img src="/assets/img/player character/2.png" alt="img" loading="lazy"></a>
+<a href="/assets/img/player character/3.png" class="popup img-link shimmer"><img src="/assets/img/player character/3.png" alt="img" loading="lazy"></a>
+화면 하단 컨텐츠 드로어(Contents Drawer)에서 블루프린트 클래스를 생성한다.</p>
+
+<p><a href="/assets/img/player character/4.png" class="popup img-link shimmer"><img src="/assets/img/player character/4.png" alt="img" loading="lazy"></a>
+캐릭터 블루프린트로 생성했기 때문에 기본적으로 캐릭터 메시가 추가되어있다.
+사전에 추가해놨던 메시를 선택해주자</p>
+
+<p><a href="/assets/img/player character/5.png" class="popup img-link shimmer"><img src="/assets/img/player character/5.png" alt="img" loading="lazy"></a>
+<strong>스프링 암(Sprint Arm)</strong> 컴포넌트와 <strong>카메라(Camera)</strong> 컴포넌트를 추가한다.
+단, 카메라 컴포넌트는 스프링 암 컴포넌트에 <strong>포함</strong>되도록 생성해야한다.</p>
+
+<p><a href="/assets/img/player character/6.png" class="popup img-link shimmer"><img src="/assets/img/player character/6.png" alt="img" loading="lazy"></a>
+추가된 두 개의 컴포넌트를 확인할 수 있다.</p>
+
+<p>하지만 해당 캐릭터는 메시만 입혀진 아무 기능 없는 껍데기에 불과하므로 정상적인 플레이어 캐릭터를 동작시키기 위해서는 추가적인 작업이 필요하다.
+해당 작업은 UE5 가 제공하는 <strong>향상된 입력(Enhanced Input)</strong>를 사용해 구현할 수 있다. <a href="https://dev.epicgames.com/documentation/ko-kr/unreal-engine/enhanced-input-in-unreal-engine?application_version=5.5">언리얼 엔진5 향상된 입력</a></p>
+
+<p><a href="/assets/img/player character/8.png" class="popup img-link shimmer"><img src="/assets/img/player character/8.png" alt="img" loading="lazy"></a>
+<a href="/assets/img/player character/9.png" class="popup img-link shimmer"><img src="/assets/img/player character/9.png" alt="img" loading="lazy"></a>
+우선 <strong>컨텐츠 드로어</strong>에서 <code class="language-plaintext highlighter-rouge">입력</code> - <code class="language-plaintext highlighter-rouge">입력 매핑 컨텍스트</code> 와 <code class="language-plaintext highlighter-rouge">입력 액션</code> 을 만든다</p>
+
+<p><a href="/assets/img/player character/20.png" class="popup img-link shimmer"><img src="/assets/img/player character/20.png" alt="img" loading="lazy"></a>
+인풋액션에는 여러 개의 값 타입이 있으나 현재는 <code class="language-plaintext highlighter-rouge">Move</code>와 <code class="language-plaintext highlighter-rouge">Look</code>가 X, Y 축을 모두 사용하기 때문에 설정값에서 ‘Axis 2D’를 선택해준다.
+<code class="language-plaintext highlighter-rouge">Digital(Bool)</code>은 말 그대로 True/False 2가지의 값을 가진다.
+Axis 1D ~ 3D 는 각자 숫자 만큼의 값을 가진다. <strong>Axis2D</strong> 는 X, Y 2개 축의 값</p>
+
+<p><a href="/assets/img/player character/10.png" class="popup img-link shimmer"><img src="/assets/img/player character/10.png" alt="img" loading="lazy"></a>
+<a href="/assets/img/player character/11.png" class="popup img-link shimmer"><img src="/assets/img/player character/11.png" alt="img" loading="lazy"></a>
+이제 <code class="language-plaintext highlighter-rouge">IMC_NBC_DefaultMappingContext</code>는 위와 같이 세팅을 한다.
+입력 액션에서 입력 이벤트를 정의(각 버튼을 누를때 이벤트)하고, 키를 액션에 맵핑하기 위한 작업이다.</p>
+<h3 id="move-의-경우"><span class="me-2">Move 의 경우</span><a href="#move-의-경우" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 <ul>
-  <li>웹 클라이언트
-  주로 웹 브라우저를 가리킴
-  Google, Naver 등을 이용할 때, 크롬 혹은 사파리 등으로 서버에 요청을 보냄
-  보낸 요청에 맞는 응답을 통해 웹 페이지를 보는것</li>
-  <li>게임 클라이언트
-  <strong>게임을 실행하는 프로그램을 의미</strong>
-  게임을 실행하는 .exe 파일 혹은 앱이 곧 게임 클라이언트
-  서버와 끊임없이 정보를 주고 받으면서 실시간 업데이트 반영</li>
+  <li>W(전진) 모디파이어 없음</li>
+  <li>S(후진) 뒤쪽으로 이동해야하기에 X축 부정</li>
+  <li>D(우측) 오른쪽으로 이동해야하기에 Y축 방향인 스위즐 입력 측 값</li>
+  <li>A(좌측) D와 반대가 되야하기 때문에 D와 같지만 부정을 추가</li>
 </ul>
 
-<h3 id="서버란"><span class="me-2">서버란?</span><a href="#서버란" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-<p><strong>사용자가 필요로하는 정보를 제공하거나 어떤 기능을 수행하도록 서비스 제공을 하는 역할</strong></p>
+<p><a href="/assets/img/player character/12.png" class="popup img-link shimmer"><img src="/assets/img/player character/12.png" alt="img" loading="lazy"></a>
+AddMappingContext의 Mapping Context 인자에 위에서 생성한 <code class="language-plaintext highlighter-rouge">IMC_NBC_DefaultMappingContext</code> 를 넣는다.
+BeginPlayt 이벤트 시작 시 <code class="language-plaintext highlighter-rouge">Get Player Controller</code>로 현재 플레이어의 컨트롤러에 연결된 인풋을 찾아서 매핍 컨텍스트와 연동된다.</p>
 
-<ul>
-  <li>웹 서버
-  텍스트, 이미지 등 여러 컨텐츠를 빠르고 간단한 데이터 처리하여 다수의 사용자에게 제공
-  사용자의 브라우저 요청(http/https)에 맞춰 웹 페이지나 이미지, 데이터 제공</li>
-  <li>게임 서버
-  웹 서버와는 다르게 실시간 상호작용과 더욱 복잡한 데이터를 다룸
-  많은 사용자의 상태, 게임 데이터를 동시에 처리가 필요해 더욱 성능이 중요시됨
-  <strong>실시간 상호 작용</strong>이 핵심이며, 캐릭터의 위치, 상태 등 <strong>복잡한 데이터</strong>를 빠르게 처리
-  여러 명이 동시에 상호작용해야하므로 <strong>동시 접속자 수</strong>와 <strong>서버 성능</strong>이 중요</li>
-</ul>
+<p><a href="/assets/img/player character/13.png" class="popup img-link shimmer"><img src="/assets/img/player character/13.png" alt="img" loading="lazy"></a>
+Move 는 위 맵핑 컨텍스트에서 설정해준 X 값으로 전진, 후진을 하며 Y 값으로 좌측, 우측으로 이동한다.
+<code class="language-plaintext highlighter-rouge">Get Actor Forward Vector</code> 와 <code class="language-plaintext highlighter-rouge">Get Actor Right Vector</code> 2가지 노드를 이용하는데 이들로 <strong>액터가 바라보는 방향</strong>으로 이동이 가능하게 된다.</p>
 
-<hr />
+<p><a href="/assets/img/player character/14.png" class="popup img-link shimmer"><img src="/assets/img/player character/14.png" alt="img" loading="lazy"></a>
+다시 View Port로 돌아와 <strong>폰</strong> &gt; <strong>플레이어 자동 빙의</strong> &gt; <strong>Player 0</strong> 을 선택한다.
+(싱글플레이의 경우 무조건 Player 0)</p>
 
-<h3 id="프로토콜"><span class="me-2">프로토콜</span><a href="#프로토콜" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-<p><strong>컴퓨터나 전자 기기간 정보 교환 시 따르는 규칙의 집합</strong>
-<strong>통신 규약이라 불리며 원활한 통신을 위해 지켜지는 약속</strong></p>
+<p><a href="/assets/img/player character/15.png" class="popup img-link shimmer"><img src="/assets/img/player character/15.png" alt="img" loading="lazy"></a>
+Look 으로 넘어와서 Move 때와 같이 핀 분할을 통해 <strong>X 는 Yaw(좌우)</strong>, <strong>Y 는 Pitch(상하)</strong>에 연결한다.</p>
 
-<ul>
-  <li>HTTP / HTTPS
-  <strong>웹</strong>에서 쓰임
-  요청/응답 구조가 명확하여, REST API 등을 통해 데이터 전송</li>
-  <li>TCP / UDP
-  실시간성이 중요한 경우 UDP를 사용
-  안정성이 중요한 경우 TCP를 사용</li>
-  <li>기타
-  WebSocket (브라우저 실시간 통신)
-  RUDP (신뢰성을 높인 UDP)</li>
-</ul>
+<p><a href="/assets/img/player character/16.png" class="popup img-link shimmer"><img src="/assets/img/player character/16.png" alt="img" loading="lazy"></a>
+기존에 생성한 <code class="language-plaintext highlighter-rouge">Move</code>의 경우 ‘월드’를 기준으로 캐릭터의 회전을 구현했으나 위 사진에서의 노드들은 <strong>현재 컨트롤러</strong>(Get Control Rotation)를 기준으로 구현한다.</p>
 
-<h3 id="서버와-클라이언트"><span class="me-2">서버와 클라이언트</span><a href="#서버와-클라이언트" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-<p><strong>온라인 게임에서 서버(Server)와 클라이언트(Client)는 서로에게 꼭 필요</strong></p>
-
-<ul>
-  <li>서버 (Server)
-  게임의 핵심 로직을 담당
-  다수의 플레이어가 동시에 접속해도 공정하고 일관성 있게 게임을 진행시키기 위해 필요
-  (공격을 받았는지, 아이템을 먹었는지 등)</li>
-  <li>클라이언트 (Client)
-  화면에 게임을 보여주고, 사용자의 요청을 입력받아 서버로 전달
-  서버로부터 넘겨받은 결과를 모니터에 그래픽, 사운드 등으로 표시</li>
-</ul>
-
-<hr />
-
-<h3 id="서버의-구조"><span class="me-2">서버의 구조</span><a href="#서버의-구조" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-<ul>
-  <li>클라이언트 - 서버구조
-  요청과 응답이 오가는 인터넷 디지털 서비스의 기본적인 원리
-  서버가 모두 관리하므로 안전하지만 서버가 멈추면 진행이 불가하고 비용이 들어감</li>
-  <li>P2P (Peer to Peer)
-  중앙 서버 없이, 플레이어끼리 직접적으로 연결하여 데이터를 주고받음
-  비용 문제가 적지만 해킹, 속도 문제가 발생하기 쉬움</li>
-  <li>하이브리드
-  부분적으로 서버가, 부분적으로 P2P 통신도 하는 형태
-  다양한 상황에 따라 혼합하여 사용</li>
-</ul>
-
-<h3 id="단일서버와-분산서버"><span class="me-2">단일서버와 분산서버</span><a href="#단일서버와-분산서버" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
-<p><strong>서버 구조를 크게 2가지로 나누면 단일서버와 분산 서버가 있음</strong></p>
-<ul>
-  <li>단일서버
-  한 대의 서버가 모든 기능을 책임짐
-  모든 데이터를 한 곳에서 처리하고, 모든 클라이언트가 한 서버에 접속하는 방식
-  접속자가 많아지면 서버에 과부하가 걸릴 가능성이 있음</li>
-  <li>분산서버
-  여러 서버가 역할을 나누어 처리하는 방식
-  서버의 역할이 나누어져서 사람이 몰려도 부하가 덜 걸림
-  대규모 온라인 게임에 적합</li>
-</ul>
+<p><a href="/assets/img/player character/17.png" class="popup img-link shimmer"><img src="/assets/img/player character/17.png" alt="img" loading="lazy"></a>
+<a href="/assets/img/player character/18.png" class="popup img-link shimmer"><img src="/assets/img/player character/18.png" alt="img" loading="lazy"></a>
+추가적으로 IA_NBC_Jump 도 만들어 이벤트 노드를 연결해주면 아주 간단하게 Jump를 구현할 수 있다.</p>
 
   </div>
 
@@ -909,21 +2057,21 @@
 
       
 
-      <a href="https://twitter.com/intent/tweet?text=%EC%84%9C%EB%B2%84%EC%99%80%20%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8%20-%20Unreal%20Devlog%20GGH&url=https%3A%2F%2Fgwakgh.github.io%2Fposts%2F%25EC%2584%259C%25EB%25B2%2584%25EC%2599%2580-%25ED%2581%25B4%25EB%259D%25BC%25EC%259D%25B4%25EC%2596%25B8%25ED%258A%25B8%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
+      <a href="https://twitter.com/intent/tweet?text=UE5%20%ED%94%8C%EB%A0%88%EC%9D%B4%EC%96%B4%20%EC%BA%90%EB%A6%AD%ED%84%B0%20%EB%A7%8C%EB%93%A4%EA%B8%B0%20-%20Unreal%20Devlog%20GGH&url=https%3A%2F%2Fgwakgh.github.io%2Fposts%2F%25EC%2596%25B8%25EB%25A6%25AC%25EC%2596%25BC-%25EC%2597%2594%25EC%25A7%25845-%25ED%2594%258C%25EB%25A0%2588%25EC%259D%25B4%25EC%2596%25B4-%25EC%25BA%2590%25EB%25A6%25AD%25ED%2584%25B0-%25EB%25A7%258C%25EB%2593%25A4%25EA%25B8%25B0%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
         <i class="fa-fw fa-brands fa-square-x-twitter"></i>
       </a>
     
 
       
 
-      <a href="https://www.facebook.com/sharer/sharer.php?title=%EC%84%9C%EB%B2%84%EC%99%80%20%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8%20-%20Unreal%20Devlog%20GGH&u=https%3A%2F%2Fgwakgh.github.io%2Fposts%2F%25EC%2584%259C%25EB%25B2%2584%25EC%2599%2580-%25ED%2581%25B4%25EB%259D%25BC%25EC%259D%25B4%25EC%2596%25B8%25ED%258A%25B8%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
+      <a href="https://www.facebook.com/sharer/sharer.php?title=UE5%20%ED%94%8C%EB%A0%88%EC%9D%B4%EC%96%B4%20%EC%BA%90%EB%A6%AD%ED%84%B0%20%EB%A7%8C%EB%93%A4%EA%B8%B0%20-%20Unreal%20Devlog%20GGH&u=https%3A%2F%2Fgwakgh.github.io%2Fposts%2F%25EC%2596%25B8%25EB%25A6%25AC%25EC%2596%25BC-%25EC%2597%2594%25EC%25A7%25845-%25ED%2594%258C%25EB%25A0%2588%25EC%259D%25B4%25EC%2596%25B4-%25EC%25BA%2590%25EB%25A6%25AD%25ED%2584%25B0-%25EB%25A7%258C%25EB%2593%25A4%25EA%25B8%25B0%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
         <i class="fa-fw fab fa-facebook-square"></i>
       </a>
     
 
       
 
-      <a href="https://t.me/share/url?url=https%3A%2F%2Fgwakgh.github.io%2Fposts%2F%25EC%2584%259C%25EB%25B2%2584%25EC%2599%2580-%25ED%2581%25B4%25EB%259D%25BC%25EC%259D%25B4%25EC%2596%25B8%25ED%258A%25B8%2F&text=%EC%84%9C%EB%B2%84%EC%99%80%20%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8%20-%20Unreal%20Devlog%20GGH" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
+      <a href="https://t.me/share/url?url=https%3A%2F%2Fgwakgh.github.io%2Fposts%2F%25EC%2596%25B8%25EB%25A6%25AC%25EC%2596%25BC-%25EC%2597%2594%25EC%25A7%25845-%25ED%2594%258C%25EB%25A0%2588%25EC%259D%25B4%25EC%2596%25B4-%25EC%25BA%2590%25EB%25A6%25AD%25ED%2584%25B0-%25EB%25A7%258C%25EB%2593%25A4%25EA%25B8%25B0%2F&text=UE5%20%ED%94%8C%EB%A0%88%EC%9D%B4%EC%96%B4%20%EC%BA%90%EB%A6%AD%ED%84%B0%20%EB%A7%8C%EB%93%A4%EA%B8%B0%20-%20Unreal%20Devlog%20GGH" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
         <i class="fa-fw fab fa-telegram"></i>
       </a>
     
@@ -1319,19 +2467,19 @@
   
 
   
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
     
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
 
 
 
@@ -1347,7 +2495,7 @@
     <nav class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
       
         <article class="col">
-          <a href="/posts/%EC%96%B8%EB%A6%AC%EC%96%BC-%EC%97%94%EC%A7%845-%ED%94%8C%EB%A0%88%EC%9D%B4%EC%96%B4-%EC%BA%90%EB%A6%AD%ED%84%B0-%EB%A7%8C%EB%93%A4%EA%B8%B0/" class="post-preview card h-100">
+          <a href="/posts/%EC%84%9C%EB%B2%84%EC%99%80-%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8/" class="post-preview card h-100">
             <div class="card-body">
               <!--
   Date format snippet
@@ -1359,16 +2507,16 @@
 
 <time
   
-  data-ts="1747653480"
+  data-ts="1747646280"
   data-df="ll"
   
 >
   May 19, 2025
 </time>
 
-              <h4 class="pt-0 my-2">UE5 플레이어 캐릭터 만들기</h4>
+              <h4 class="pt-0 my-2">서버와 클라이언트</h4>
               <div class="text-muted">
-                <p>플레이어 캐릭터는 게임에서 사용자가 직접 조작하는 핵심 오브젝트 Unreal Engine의 Visual Script인 Blueprint를 통해 별도의 코드 작성 없이 캐릭터의 외형, 시점, 이동 및 점프같은 기본적인 동작을 구현한다.   블루프린트로 Character를 생성하여 사진과 같이 움직이는 플레이어 캐릭터를 생성해보자     화면 하단 컨텐츠...</p>
+                <p>클라이언트란? 웹 브라우저(Chrome, Safari, Edge 등), 게임 실행 프로그램(게임 클라이언트)     웹 클라이언트   주로 웹 브라우저를 가리킴   Google, Naver 등을 이용할 때, 크롬 혹은 사파리 등으로 서버에 요청을 보냄   보낸 요청에 맞는 응답을 통해 웹 페이지를 보는것   게임 클라이언트   게임을 실행하는 프로그램...</p>
               </div>
             </div>
           </a>
@@ -1445,22 +2593,18 @@
 
   
     <a
-      href="/posts/%EC%B2%AB-%ED%8F%AC%EC%8A%A4%ED%8C%85/"
+      href="/posts/%EC%84%9C%EB%B2%84%EC%99%80-%ED%81%B4%EB%9D%BC%EC%9D%B4%EC%96%B8%ED%8A%B8/"
       class="btn btn-outline-primary"
       aria-label="Older"
     >
-      <p>포스팅 테스트</p>
+      <p>서버와 클라이언트</p>
     </a>
   
 
   
-    <a
-      href="/posts/%EC%96%B8%EB%A6%AC%EC%96%BC-%EC%97%94%EC%A7%845-%ED%94%8C%EB%A0%88%EC%9D%B4%EC%96%B4-%EC%BA%90%EB%A6%AD%ED%84%B0-%EB%A7%8C%EB%93%A4%EA%B8%B0/"
-      class="btn btn-outline-primary"
-      aria-label="Newer"
-    >
-      <p>UE5 플레이어 캐릭터 만들기</p>
-    </a>
+    <div class="btn btn-outline-primary disabled" aria-label="Newer">
+      <p>-</p>
+    </div>
   
 </nav>
 
